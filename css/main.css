@@ -1,30 +1,70 @@
 
 body {
-    position: absolute;
-    top: 30%;
-    left: 30%;
+    margin: 20px auto;
+    margin-top: 200px;
+    width: 500px;
     box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 h1 {
     display: flex;
     justify-content: center;
-    background-color: #9DC284;
+    background-color: #93C47D;
     color: white;
-    font-size: 30px;
-    font-family: Helvetica;
-    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px;
+}
 
+ul, li{
+    list-style-type: none;
+    padding: 5px 0;
+    font-size: 15px;
+    color: #FF9B0D;
+}
+ul button{
+    margin: 0 10px 0 0;
+    border: 0px;
+    background-color: #E06566;
+    color: white;
+    outline: none;
+
+}
+ul button:hover{
+    background-color: #F24E50;
 
 }
 
-input {
-
-    border: 2px solid #9DC284;
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-items: center; 
 }
 
-button {
-    border: 2px solid #9DC284;
-    color: #9DC284;
+
+input[type="text"]{
+    border: 3px solid #93C47D;
+    padding: 7px;
+    color: #93C47D;
+    margin:0 7px 0 0;
+    font-size:15px;
+    flex-grow: 5;
+    outline: none;
+}
+input[type="submit"]{
+    border: 3px solid #93C47D;
+    background-color: white;
+    color: #93C47D;
+    text-transform: uppercase;
+    font-size:15px;
+    font-weight: bold;
+    padding: 7px;
+    outline: none;
+
 }
