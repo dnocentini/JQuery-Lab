@@ -1,0 +1,28 @@
+
+body {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: #9DC284;
+    color: white;
+    font-size: 30px;
+    font-family: Helvetica;
+    
+
+
+}
+
+input {
+
+    border: 2px solid #9DC284;
+}
+
+button {
+    border: 2px solid #9DC284;
+    color: #9DC284;
+}
