@@ -8,3 +8,7 @@ $("#add-skill").on("submit", function (evt) {
     $('input[type="text"]').val("");
 });
 
+$("ul").on("click", "button", function () {
+    function clear() { $(this).closest("li").remove() }
+    $(this).closest("li").fadeOut("fast", clear);
+});
